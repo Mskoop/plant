@@ -1,0 +1,60 @@
+/*---Global Styles ---*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    background-color: blue;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+/* Styles for Main - expl */
+section {
+    background-color: yellow;
+    
+    /*padding-top: 20px;
+    /*padding-right: 180px;*/
+    /*padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 40px;*/
+    /* 2 werte - oben und unten
+    3 werte - oben, seiten, unten
+    4 werte - oben rechts, unten, links*/
+}
+
+/*Styles for DIVs--*/
+/*box model*/
+
+div:first-of-type {
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    border: 5px solid red;
+    
+}
+
+div:last-of-type {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border: 5px solid red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+}
+ul li {
+    display: inline-block;
+    border: 2px solid black;
+    height: 200px;
+}

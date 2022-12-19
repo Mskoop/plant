@@ -1,0 +1,23 @@
+header {
+    background-color: aqua;
+}
+section {
+    height: 400px;
+    width: 400px;
+    background-image: url("https://i.picsum.photos/id/630/400/400.jpg?hmac=NuLLQgdbIQ2V85XGRx0udrq1MEGg5G3yXr0Lw50kM88");
+    display:block;
+}
+span {
+    color:red;
+}
+div {
+    height: 600px;
+    width: 600px;
+    background-image: url("https://i.picsum.photos/id/344/600/600.jpg?hmac=-dcLtsgcwMMURdpKxFbyHU6q9zYSiTZ99e_HWBKzdkc");
+}
+article {
+    height: 600px;
+    width: 800px;
+    background-image: url("https://i.picsum.photos/id/387/800/600.jpg?hmac=4sd8OwtmiEBLX_GkFLaotzCD5Ae6otVihJvMBL6o_Ps");
+}
+

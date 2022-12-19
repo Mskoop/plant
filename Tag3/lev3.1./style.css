@@ -1,0 +1,19 @@
+h2 {
+    color:red;
+}
+main p:first-of-type {
+    color: red;
+    font-size: 16px;
+}
+img {
+    width: 100px;
+    border-radius: 100px;
+    border: 8px solid green;
+}
+div {
+    background-color: grey;
+    width: 400px;
+}
+div > p:first-of-type {
+    color: green;
+}

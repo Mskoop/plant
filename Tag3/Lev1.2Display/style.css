@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+   
+    background-image: url("https://i.picsum.photos/id/1050/600/600.jpg?hmac=4njigak_Ut35oqpwIFsfqCgw146W6j913LM6C3IZdvg");
+    background-size: 100%;
+}
+header {
+    background-color: gray;
+    text-align: right;
+    
+}
+
+a {
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    padding: 20px 20px;
+}

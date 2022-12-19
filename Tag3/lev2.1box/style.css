@@ -1,0 +1,21 @@
+h1, h2, h3 {
+   background-color: rosybrown; 
+   display: inline-block;
+   border: 3px double greenyellow;
+   width: 550px;
+   text-align: center ;
+   border-radius: 10px;
+}
+
+
+
+p, ol, ul {
+    width: 550px;
+    border: 3px solid red;
+box-sizing: border-box;
+}
+
+
+ul, ol {
+    text-decoration: underline blue;
+}

@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+/* Pseudo Elemente*/
+
+h1::first-letter {
+    color:purple;
+    font-size: 200px;
+}
+p::first-line {
+    color: red;
+    background-color: yellow;
+}
+
+p::selection {
+    color: blue;
+    background-color: yellow;
+}
+
+ul, ol {
+    margin: 40px;
+}
+
+li::marker {
+    color: green;   
+font-size: 30px;
+}
+ol li::marker{
+color: red;
+}
+
+h3::before {
+    content: "Das ist ☺️ ein Before";
+    color:brown;
+    font-size: 30px;
+    margin: 30px;
+}
+
+h4::after {
+    content: "Das ist ein After";
+    text-decoration: underline;
+    text-decoration: dotted;
+    color:aquamarine;
+    font-style: italic;
+}
+
+nav {
+    margin: 40px;
+    
+}
+nav a {
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+/*
+nav a:hover {
+    text-decoration: underline;
+    font-size: 50px;
+    color:aqua;
+    background-color: blue;
+}
+*/
+
+nav a:active {
+    color: darkolivegreen;
+    font-size: 25px;
+}
+.Yellow {
+    color: hotpink;
+}
+.Backblack {
+    background-color: black;
+    color:blanchedalmond;
+}
